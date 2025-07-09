@@ -6,7 +6,7 @@ function [a, Topt, GPPopt, Topt_exist, R2, RMSE, p1, p2, p3] = fitOptimal(T, GPP
     % Inputs:
     %   T        - Vector of temperature values
     %   GPP      - Vector of corresponding GPP values
-    %   interval - Temperature interval for range checking
+    %   interval - Temperature interval 
     %
     % Outputs:
     %   a          - Quadratic coefficient (T^2 term)
